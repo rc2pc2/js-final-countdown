@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #6495ed;
+    color: #00808a;
+    font-family: 'Noto Sans JP', sans-serif;
+
+
+}
+
+main{
+    background-color: #e6e6fa;
+    width: 850px;
+    padding: 4rem;
+    margin: 0 auto;
+    margin-top: 10rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+
+main h1 {
+    margin-bottom: 3rem;
+    font-size: 2.5rem;
+}
+
+.flex-centered{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+div#counter{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    font-size: 2.35rem;
+    text-align: center;
+}
+
+p.counter-digits{
+    font-size: 4rem;
+}
